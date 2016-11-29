@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Test1
+namespace Chap02
 {
 	public partial class Start3 : System.Web.UI.Page
 	{
@@ -40,6 +40,10 @@ namespace Test1
 			Response.Write("<hr />");
 
 			Test8();
+
+			Response.Write("<hr />");
+
+			Test9();
 
 
 		}
@@ -279,6 +283,19 @@ namespace Test1
 		}
 
 
+		private void Test9()
+		{
+			char[] a = "Hello ASP.NET!".ToCharArray();
+
+			foreach (char val in a)
+				Response.Write(Convert.ToChar(val ^ 15) + "&nbsp;");
+
+			Response.Write("<br />");
+
+			foreach (char val in a)
+				Response.Write(Convert.ToChar(Convert.ToChar(val ^ 15) ^ 15));
+			
+		}
 
 	}
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列特性集
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Learn_ASP.NET_Chap02")]
+[assembly: AssemblyTitle("Chap03")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Learn_ASP.NET_Chap02")]
+[assembly: AssemblyProduct("Chap03")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于 typelib 的 ID
-[assembly: Guid("f932f4b0-a7b5-4eda-ba53-bae24ce8adcd")]
+[assembly: Guid("41417d4d-26cc-4332-a00a-bf00f7932be7")]
 
 // 程序集的版本信息由下列四个值组成:
 //

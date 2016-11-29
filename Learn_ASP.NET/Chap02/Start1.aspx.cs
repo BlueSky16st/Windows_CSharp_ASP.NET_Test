@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Test1
+namespace Chap02
 {
 	public partial class Start : System.Web.UI.Page
 	{

@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace Test1 {
+namespace Chap02 {
     
     
     public partial class Start {
