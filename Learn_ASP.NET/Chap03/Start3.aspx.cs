@@ -59,5 +59,22 @@ namespace Chap03
 			}
 
 		}
+
+		protected void Button1_Click(object sender, EventArgs e)
+		{
+			txt_result2.Text = "";
+			CheckBox chk;
+
+			foreach (Control ctl in div_ch.Controls)
+			{
+				if(ctl is CheckBox)
+				{
+					chk = (CheckBox)ctl;
+					if(chk.Checked)
+						txt_result2.Text += chk.Text + ", ";
+				}
+			}
+
+		}
 	}
 }
