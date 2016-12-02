@@ -65,7 +65,7 @@
 			<asp:RadioButton ID="RadioButton3" GroupName="Ra" Text="带链接竖向排列" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton3_CheckedChanged" />
 			<br />
 			<asp:BulletedList ID="BulletedList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="网站名称" DataValueField="网站"></asp:BulletedList>
-			<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:TestDatabaseConnectionString %>' ProviderName='<%$ ConnectionStrings:TestDatabaseConnectionString.ProviderName %>' SelectCommand="SELECT [网站名称], [网站] FROM [网站]"></asp:SqlDataSource>
+			<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:TestDatabaseConnectionString2 %>' ProviderName='<%$ ConnectionStrings:TestDatabaseConnectionString2.ProviderName %>' SelectCommand="SELECT [网站名称], [网站] FROM [网站]"></asp:SqlDataSource>
 		</div>
 
 		<div class="T">
@@ -85,11 +85,16 @@
 		</div>
 
 		<div class="T">
-			<asp:DropDownList ID="DropDownList2" runat="server" DataSourceID="SqlDataSource1" DataTextField="网站名称" DataValueField="网站"></asp:DropDownList>
-			<asp:Button ID="Button1" runat="server" Text="转到" />
+			<asp:DropDownList ID="DropDownList2" runat="server" DataSourceID="SqlDataSource2" DataTextField="网站名称" DataValueField="网站"></asp:DropDownList>
+			<asp:SqlDataSource runat="server" ID="SqlDataSource2" ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\Git_Project\Windows_CSharp_ASP.NET_Test\Learn_ASP.NET\Chap03\TestDatabase.mdb" ProviderName="System.Data.OleDb" SelectCommand="SELECT [网站名称], [网站] FROM [网站]"></asp:SqlDataSource>
+			<asp:Button ID="btn_3" runat="server" Text="转到" OnClick="btn_3_Click" />
 			<br />
-			<asp:Button ID="Button2" runat="server" Text="Button" />
-			<asp:Button ID="Button3" runat="server" Text="Button" />
+			<asp:Button ID="btn_4" runat="server" Text="更改第1项的内容" OnClick="btn_4_Click" />
+			<asp:Button ID="btn_5" runat="server" Text="添加一个新项" OnClick="btn_5_Click" />
+			<asp:Button ID="btn_6" runat="server" Text="创建一个新的下拉列表" OnClick="btn_6_Click" />
+			<asp:Panel ID="Panel1" runat="server">
+
+			</asp:Panel>
 		</div>
 
 	</form>

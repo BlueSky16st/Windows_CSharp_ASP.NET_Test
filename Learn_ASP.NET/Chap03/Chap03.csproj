@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="兔子 %281%29.jpg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -79,6 +80,7 @@
     <Content Include="Start2.aspx" />
     <Content Include="Start3.aspx" />
     <Content Include="Start4.aspx" />
+    <Content Include="Start5.aspx" />
     <Content Include="TestDatabase.mdb" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -111,6 +113,13 @@
     </Compile>
     <Compile Include="Start4.aspx.designer.cs">
       <DependentUpon>Start4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5.aspx.cs">
+      <DependentUpon>Start5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5.aspx.designer.cs">
+      <DependentUpon>Start5.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

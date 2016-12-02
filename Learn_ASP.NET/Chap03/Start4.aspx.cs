@@ -49,5 +49,34 @@ namespace Chap03
 		{
 			DropDownList1.Items.Clear();
 		}
+
+		protected void btn_3_Click(object sender, EventArgs e)
+		{
+			Response.Redirect(DropDownList2.SelectedValue);
+
+		}
+
+		protected void btn_4_Click(object sender, EventArgs e)
+		{
+			DropDownList2.Items[0].Text = "新浪";
+			DropDownList2.Items[0].Value = "http://www.sina.com.cn/";
+
+		}
+
+		protected void btn_5_Click(object sender, EventArgs e)
+		{
+			ListItem lt = new ListItem("知乎", "https://www.zhihu.com/");
+			DropDownList2.Items.Add(lt);
+
+		}
+
+		protected void btn_6_Click(object sender, EventArgs e)
+		{
+			DropDownList ddl = new DropDownList();
+			ddl = DropDownList2;
+
+			Panel1.Controls.Add(ddl);
+
+		}
 	}
 }
