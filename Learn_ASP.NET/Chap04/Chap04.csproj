@@ -76,6 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Start1.aspx" />
+    <Content Include="Start2.aspx" />
+    <Content Include="Start3.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +88,20 @@
     </Compile>
     <Compile Include="Start1.aspx.designer.cs">
       <DependentUpon>Start1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start2.aspx.cs">
+      <DependentUpon>Start2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start2.aspx.designer.cs">
+      <DependentUpon>Start2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start3.aspx.cs">
+      <DependentUpon>Start3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start3.aspx.designer.cs">
+      <DependentUpon>Start3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
