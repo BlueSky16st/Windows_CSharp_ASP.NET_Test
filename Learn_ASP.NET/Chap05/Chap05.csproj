@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,9 +77,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Start1.aspx" />
+    <Content Include="Start10_1.aspx" />
+    <Content Include="Start10_2.aspx" />
+    <Content Include="Start10_3.aspx" />
+    <Content Include="Start2_1.aspx" />
+    <Content Include="Start2_2.aspx" />
+    <Content Include="Start3_1.aspx" />
+    <Content Include="Start3_2.aspx" />
+    <Content Include="Start4_1.aspx" />
+    <Content Include="Start4_2.aspx" />
+    <Content Include="Start5_1.aspx" />
+    <Content Include="Start5_2.aspx" />
+    <Content Include="Start5_3.aspx" />
+    <Content Include="Start6_1.aspx" />
+    <Content Include="Start6_2.aspx" />
+    <Content Include="Start7_1.aspx" />
+    <Content Include="Start7_2.aspx" />
+    <Content Include="Start8_1.aspx" />
+    <Content Include="Start8_2.aspx" />
+    <Content Include="Start9.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Start1.aspx.cs">
       <DependentUpon>Start1.aspx</DependentUpon>
@@ -86,6 +109,139 @@
     </Compile>
     <Compile Include="Start1.aspx.designer.cs">
       <DependentUpon>Start1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start10_1.aspx.cs">
+      <DependentUpon>Start10_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start10_1.aspx.designer.cs">
+      <DependentUpon>Start10_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start10_2.aspx.cs">
+      <DependentUpon>Start10_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start10_2.aspx.designer.cs">
+      <DependentUpon>Start10_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start10_3.aspx.cs">
+      <DependentUpon>Start10_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start10_3.aspx.designer.cs">
+      <DependentUpon>Start10_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start2_1.aspx.cs">
+      <DependentUpon>Start2_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start2_1.aspx.designer.cs">
+      <DependentUpon>Start2_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start2_2.aspx.cs">
+      <DependentUpon>Start2_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start2_2.aspx.designer.cs">
+      <DependentUpon>Start2_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start3_1.aspx.cs">
+      <DependentUpon>Start3_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start3_1.aspx.designer.cs">
+      <DependentUpon>Start3_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start3_2.aspx.cs">
+      <DependentUpon>Start3_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start3_2.aspx.designer.cs">
+      <DependentUpon>Start3_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start4_1.aspx.cs">
+      <DependentUpon>Start4_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start4_1.aspx.designer.cs">
+      <DependentUpon>Start4_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start4_2.aspx.cs">
+      <DependentUpon>Start4_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start4_2.aspx.designer.cs">
+      <DependentUpon>Start4_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_1.aspx.cs">
+      <DependentUpon>Start5_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_1.aspx.designer.cs">
+      <DependentUpon>Start5_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_2.aspx.cs">
+      <DependentUpon>Start5_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_2.aspx.designer.cs">
+      <DependentUpon>Start5_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_3.aspx.cs">
+      <DependentUpon>Start5_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_3.aspx.designer.cs">
+      <DependentUpon>Start5_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start6_1.aspx.cs">
+      <DependentUpon>Start6_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start6_1.aspx.designer.cs">
+      <DependentUpon>Start6_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start6_2.aspx.cs">
+      <DependentUpon>Start6_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start6_2.aspx.designer.cs">
+      <DependentUpon>Start6_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start7_1.aspx.cs">
+      <DependentUpon>Start7_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start7_1.aspx.designer.cs">
+      <DependentUpon>Start7_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start7_2.aspx.cs">
+      <DependentUpon>Start7_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start7_2.aspx.designer.cs">
+      <DependentUpon>Start7_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start8_1.aspx.cs">
+      <DependentUpon>Start8_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start8_1.aspx.designer.cs">
+      <DependentUpon>Start8_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start8_2.aspx.cs">
+      <DependentUpon>Start8_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start8_2.aspx.designer.cs">
+      <DependentUpon>Start8_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start9.aspx.cs">
+      <DependentUpon>Start9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start9.aspx.designer.cs">
+      <DependentUpon>Start9.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

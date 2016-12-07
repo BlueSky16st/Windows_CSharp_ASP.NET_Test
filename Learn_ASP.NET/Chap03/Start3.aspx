@@ -66,7 +66,7 @@
 				<asp:CheckBox ID="CheckBox11" Text="11" runat="server" />
 				<asp:CheckBox ID="CheckBox12" Text="12" runat="server" />
 				<br />
-				<asp:Button ID="btn_submit3" runat="server" Text="获取选择的值" OnClick="Button1_Click" />
+				<asp:Button ID="btn_submit3" runat="server" Text="获取选择的值" OnClick="btn_submit3_Click" />
 				<asp:TextBox ID="txt_result2" runat="server" TextMode="MultiLine" Rows="4"></asp:TextBox>
 			</div>
 		</div>

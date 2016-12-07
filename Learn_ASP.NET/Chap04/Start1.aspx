@@ -49,7 +49,7 @@
 		</div>
 
 		<div class="T">
-			获取第三个文件框的内容并拆分
+			获取第三个文本框的内容并拆分
 			<br />
 			<asp:Button ID="btn_1" Text="获取内容并拆分" runat="server" OnClick="btn_1_Click" />
 			<asp:TextBox ID="tb_4" Width="100px" runat="server" />

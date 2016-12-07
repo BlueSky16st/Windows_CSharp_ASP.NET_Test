@@ -60,17 +60,17 @@ namespace Chap03
 
 		}
 
-		protected void Button1_Click(object sender, EventArgs e)
+		protected void btn_submit3_Click(object sender, EventArgs e)
 		{
 			txt_result2.Text = "";
 			CheckBox chk;
 
 			foreach (Control ctl in div_ch.Controls)
 			{
-				if(ctl is CheckBox)
+				if (ctl is CheckBox)
 				{
 					chk = (CheckBox)ctl;
-					if(chk.Checked)
+					if (chk.Checked)
 						txt_result2.Text += chk.Text + ", ";
 				}
 			}
