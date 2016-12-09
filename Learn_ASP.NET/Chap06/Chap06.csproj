@@ -66,7 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="jquery_3.1.1.js" />
     <Content Include="packages.config" />
+    <Content Include="Start5_default.aspx" />
+    <Content Include="Start5_master.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,7 +78,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="queen.png" />
     <Content Include="Start1.aspx" />
+    <Content Include="Start2.aspx" />
+    <Content Include="Start3.aspx" />
+    <Content Include="Start4.aspx" />
+    <Content Include="Start5_readallline.aspx" />
+    <Content Include="Start5_readalltext.aspx" />
+    <Content Include="txtFile\file2.txt" />
+    <Content Include="txtFile\file1.txt" />
+    <Content Include="txtFile\StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +98,55 @@
     </Compile>
     <Compile Include="Start1.aspx.designer.cs">
       <DependentUpon>Start1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start2.aspx.cs">
+      <DependentUpon>Start2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start2.aspx.designer.cs">
+      <DependentUpon>Start2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start3.aspx.cs">
+      <DependentUpon>Start3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start3.aspx.designer.cs">
+      <DependentUpon>Start3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start4.aspx.cs">
+      <DependentUpon>Start4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start4.aspx.designer.cs">
+      <DependentUpon>Start4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_default.aspx.cs">
+      <DependentUpon>Start5_default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_default.aspx.designer.cs">
+      <DependentUpon>Start5_default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_master.Master.cs">
+      <DependentUpon>Start5_master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_master.Master.designer.cs">
+      <DependentUpon>Start5_master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_readallline.aspx.cs">
+      <DependentUpon>Start5_readallline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_readallline.aspx.designer.cs">
+      <DependentUpon>Start5_readallline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5_readalltext.aspx.cs">
+      <DependentUpon>Start5_readalltext.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5_readalltext.aspx.designer.cs">
+      <DependentUpon>Start5_readalltext.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

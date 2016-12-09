@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Start5_master.master.cs" Inherits="Chap06.Start5_master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+
+	<script src="jquery_3.1.1.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function ()
+		{
+			$("#div_right div").mouseover(function ()
+			{
+				$("a", this).show();
+			});
+
+			$("#div_right div").mouseout(function ()
+			{
+				$("a", this).hide();
+			});
+
+		});
+
+	</script>
+
+	<style type="text/css">
+		body
+		{
+			width: 750px;
+			margin: 0px auto;
+		}
+
+		h2 {
+			text-align: center;
+			border-bottom: 1px dotted silver;
+			padding-bottom: 20px;
+		}
+
+		#div_left {
+			float: left;
+		}
+
+		#div_right {
+			float: right;
+			width: 270px;
+		}
+
+		#div_right div {
+			padding: 10px 0px;
+			border-bottom: 1px dotted silver;
+		}
+
+		#div_right div a {
+			font-size: 12px;
+			text-decoration: none;
+			display: block;
+			float: right;
+			padding: 3px;
+			margin-left: 5px;
+			border: 1px solid black;
+			display: none;
+		}
+
+		#div_right div a:hover {
+			color: #850000;
+		}
+
+		.clr {
+			clear: both;
+		}
+
+		#div_foot {
+			height: 30px;
+			background-color: #DEDEDE;
+			border: 1px solid gray;
+		}
+
+	</style>
+
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div>
+			<div id="div_head">
+				<h2>文本阅读编辑</h2>
+			</div>
+			<div id="div_main">
+				<div id="div_left">
+					<asp:ContentPlaceHolder ID="holder_main" runat="server"></asp:ContentPlaceHolder>
+				</div>
+				<div id="div_right" runat="server">菜单</div>
+				<div class="clr"></div>
+			</div>
+			<div id="div_foot"></div>
+		</div>
+	</form>
+</body>
+</html>
