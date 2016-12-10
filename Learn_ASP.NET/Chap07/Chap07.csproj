@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="imgs\back_head.jpg" />
+    <Content Include="imgs\newsdefault.jpg" />
     <Content Include="mdb\mydb.mdb" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -78,6 +80,12 @@
   <ItemGroup>
     <Content Include="Start1.aspx" />
     <Content Include="Start2.aspx" />
+    <Content Include="Start3.aspx" />
+    <Content Include="Start4_1.aspx" />
+    <Content Include="Start4_2.aspx" />
+    <Content Include="Start5.aspx" />
+    <Content Include="Start6.aspx" />
+    <Content Include="Start7.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +103,48 @@
     </Compile>
     <Compile Include="Start2.aspx.designer.cs">
       <DependentUpon>Start2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start3.aspx.cs">
+      <DependentUpon>Start3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start3.aspx.designer.cs">
+      <DependentUpon>Start3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start4_1.aspx.cs">
+      <DependentUpon>Start4_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start4_1.aspx.designer.cs">
+      <DependentUpon>Start4_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start4_2.aspx.cs">
+      <DependentUpon>Start4_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start4_2.aspx.designer.cs">
+      <DependentUpon>Start4_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start5.aspx.cs">
+      <DependentUpon>Start5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start5.aspx.designer.cs">
+      <DependentUpon>Start5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start6.aspx.cs">
+      <DependentUpon>Start6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start6.aspx.designer.cs">
+      <DependentUpon>Start6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start7.aspx.cs">
+      <DependentUpon>Start7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start7.aspx.designer.cs">
+      <DependentUpon>Start7.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

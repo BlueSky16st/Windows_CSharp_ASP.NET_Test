@@ -18,7 +18,11 @@
 					<asp:CheckBoxField DataField="是否主科" HeaderText="是否主科" SortExpression="是否主科"></asp:CheckBoxField>
 				</Columns>
 			</asp:GridView>
-			<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:mydbConnectionString %>' ProviderName='<%$ ConnectionStrings:mydbConnectionString.ProviderName %>' SelectCommand="SELECT * FROM [课程信息] where [学分]>65"></asp:SqlDataSource>
+			<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:mydbConnectionString %>' ProviderName='<%$ ConnectionStrings:mydbConnectionString.ProviderName %>' SelectCommand="SELECT * FROM [课程信息] WHERE ([ID] = ?)">
+				<SelectParameters>
+					<asp:QueryStringParameter QueryStringField="id" DefaultValue="1" Name="ID" Type="Int32"></asp:QueryStringParameter>
+				</SelectParameters>
+			</asp:SqlDataSource>
 
 			<br />
 			<asp:Button ID="btn_1" runat="server" Text="查找学分<70的记录" OnClick="btn_1_Click" />
